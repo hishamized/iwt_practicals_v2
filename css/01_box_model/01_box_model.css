@@ -1,0 +1,8 @@
+.box{
+    height: 15vw;
+    width: 30vw;
+    background-color: green;
+    border: 10px solid black;
+    margin: 5em;
+    padding: 2em;
+}
