@@ -1,0 +1,4 @@
+CREATE TABLE `iwt_practical`.`subjects` (`course_code` VARCHAR(255) NOT NULL , 
+`course_name` VARCHAR(255) NOT NULL , `course_credits` INT(11) NOT NULL , `semester` 
+INT(11) NOT NULL , `branch` VARCHAR(255) NOT NULL , PRIMARY KEY (`course_code`)) 
+ENGINE = InnoDB;
