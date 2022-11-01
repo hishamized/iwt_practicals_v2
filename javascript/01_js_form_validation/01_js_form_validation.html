@@ -1,0 +1,31 @@
+<!-- Write some html code to impliment form validation using Javascript -->
+<html>
+    <head>
+        <title>8613 - Hisham</title>
+    </head>
+    <body>
+        <form action="#" method="POST">
+           <fieldset>
+            <legend>Form validation Using Javascript</legend>
+            <label for="ussername">Username:</label>
+            <input type="text" id="username" name="username">
+            <br><br>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email">
+            <br><br>
+            <label for="password">Password:</label>
+            <input type="password" name="password" id="password">
+            <br><br>
+            <label for="cpassword">Confirm Password:</label>
+            <input type="password" name="cpassword" id="cpassword">
+            <br><br>
+            <label for="age">Age:</label>
+            <input type="number" name="age" id="age">
+            <br><br>
+            <button type="submit" name="register" onclick="validate()">Register!</button>
+           </fieldset>
+        </form>
+        <!-- Linking Javascript file to this page -->
+        <script src="01_js_form_validation.js"></script>
+    </body>
+</html>
